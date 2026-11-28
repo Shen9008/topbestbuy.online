@@ -1,3 +1,6 @@
+// Pages CLI only (e.g. `npx wrangler pages deploy ./dist`).
+// Do NOT use this file as the Git-connected Pages "Deploy command" — leave that field empty;
+// Pages publishes ./dist automatically. `wrangler deploy` is for Workers, not this static site.
 {
   "name": "topbestbuy",
   "compatibility_date": "2025-11-22",
